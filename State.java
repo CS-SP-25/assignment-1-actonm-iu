@@ -1,4 +1,4 @@
-public class State {
+abstract class State {
     private String name; //create a private string variable called name
     private SalesTaxBehavior taxBehavior; //declare private instance variable for TaxBehavior of type SalesTaxBehavior allowing for it to be dynamically changed
 
